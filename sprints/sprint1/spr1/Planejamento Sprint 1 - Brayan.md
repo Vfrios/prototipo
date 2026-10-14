@@ -6,6 +6,7 @@ Permitir que uma pessoa encontre itens disponíveis para doação ou troca e ent
 
 ## Funcionalidades previstas
 
+
 - Apresentar itens disponíveis em uma lista de fácil consulta.
 - Permitir a busca de itens por palavras relacionadas ao que a pessoa procura.
 - Organizar os itens por categoria.
