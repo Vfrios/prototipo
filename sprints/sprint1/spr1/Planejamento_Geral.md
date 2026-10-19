@@ -228,3 +228,18 @@ Os requisitos abaixo complementam os requisitos funcionais de cada frente. Os al
 - Conferir teclado, rótulos, mensagens de erro e apresentação em uma largura móvel e uma largura desktop suportadas.
 - Recarregar as telas após alterações confirmadas para verificar persistência, ausência de duplicatas e consistência entre frentes.
 - Simular falhas de carregamento e gravação para confirmar que a interface distingue erro de lista vazia e não indica sucesso indevido.
+
+## 10. APIs do sistema previstas para a Sprint 1
+
+As rotas abaixo correspondem às funcionalidades planejadas para esta sprint e às chamadas disponíveis na camada de API do frontend (`reviva-frontend/src/api.js`). A inclusão nesta lista indica uso previsto, não que a implementação já esteja concluída.
+
+- **Acesso à conta:** `POST /api/auth/registrar` e `POST /api/auth/login`, para criar uma conta e autenticar as operações protegidas.
+- **Descoberta de itens (Brayan):** `GET /api/itens` (com consulta por texto, categoria, modalidade e disponibilidade) e `GET /api/itens/{id}`; `GET /api/usuarios/{id}/publico` para apresentar os dados públicos de quem anunciou.
+- **Publicação e gestão de itens (Gustavo):** `GET /api/itens/meus`, `POST /api/itens`, `PUT /api/itens/{id}` e `POST /api/itens/{id}/doado`, para consultar, criar, editar e atualizar a disponibilidade dos próprios anúncios. `GET /api/geo/cep/{cep}` pode ser usado para preencher a localização informada a partir do CEP.
+- **Comunidades e favoritos (João):** `GET /api/comunidades`, `POST /api/comunidades/{id}/participar`, `GET /api/favoritos`, `POST /api/favoritos/{itemId}` e `DELETE /api/favoritos/{itemId}`.
+- **Endereços e preferências (Tang):** `GET`, `POST /api/enderecos`; `PUT` e `DELETE /api/enderecos/{id}`; `POST /api/enderecos/{id}/principal`; `GET /api/usuarios/me/preferencias` e `PUT /api/usuarios/me/preferencias`.
+- **Avisos básicos (Tang):** `GET /api/notificacoes` para consultar os avisos disponíveis.
+- **Perfil e reputação inicial (Thiago):** `GET /api/usuarios/me`, `PUT /api/usuarios/me`, `GET /api/usuarios/{id}/publico`, `GET /api/usuarios/{id}/reputacao` e `GET /api/usuarios/{id}/itens` para os indicadores de participação previstos.
+- **Solicitações e conversa (Vitor):** `POST /api/solicitacoes`, `GET /api/solicitacoes/recebidas`, `GET /api/solicitacoes/enviadas`, `GET /api/solicitacoes/conversas`, `GET /api/solicitacoes/{id}`, `GET /api/solicitacoes/{id}/mensagens` e `POST /api/solicitacoes/{id}/mensagens`.
+
+Os parâmetros e identificadores entre chaves são preenchidos conforme a operação. As rotas de localização avançada, agendamentos, avaliações após a negociação, denúncias, publicações em comunidades e gerenciamento avançado de notificações permanecem fora desta sprint, conforme o escopo definido na seção 7.
