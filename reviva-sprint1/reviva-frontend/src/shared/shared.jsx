@@ -61,7 +61,7 @@ const NOTIF_ICONS = {
 
 function capitalize(s) {
   if (!s) return "";
-  return s.charAt(0) + s.slice(1).toLowerCase();
+  return s.charAt(0) + s.slice(1).toLowerCase();fdistanciaKm
 }
 function timeAgo(iso) {
   if (!iso) return "";
