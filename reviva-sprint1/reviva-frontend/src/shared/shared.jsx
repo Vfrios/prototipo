@@ -54,6 +54,7 @@ const BADGES = [
   { tier: "ESMERALDA", label: "Esmeralda", min: 350, color: "#1F6E43" },
 ];
 
+
 const NOTIF_ICONS = {
   CHAT: MessageCircle, MATCH: Sparkles, WISHLIST: Heart,
   LEMBRETE: Clock, AVALIACAO: Star, MODERACAO: Flag, COMUNIDADE: Users,
