@@ -82,8 +82,8 @@ async function request(path, { method = "GET", body, auth = true, params } = {})
   return data;
 }
 
-/* ---------------- Auth / Usuário ---------------- */
 export const api = {
+  /* ---------------- Auth / Usuário ---------------- */
   registrar: (payload) =>
     request("/api/auth/registrar", { method: "POST", auth: false, body: payload }),
 
