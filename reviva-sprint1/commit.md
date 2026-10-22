@@ -120,6 +120,7 @@ A tarefa consiste em **copiar os arquivos e blocos de funções já existentes d
 19. `reviva-frontend/src/conjuntos/Tang-endereco-seguranca/enderecos.jsx`
 20. `reviva-frontend/src/conjuntos/Tang-endereco-seguranca/seguranca.jsx`
 
+
 ## Gustavo
 
 1. `reviva-api/src/main/api/conjuntos/Gustavo-publicacao-gestao/comum/Item.java`
