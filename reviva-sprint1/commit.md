@@ -134,3 +134,8 @@ A tarefa consiste em **copiar os arquivos e blocos de funções já existentes d
 10. `reviva-frontend/src/shared/shared.jsx` — `const STATUS_ITEM`, `function statusDoItem(item)` e `function StatusBadge({ item, status, label })`
 11. `reviva-frontend/src/conjuntos/Gustavo-publicacao-gestao/cadastroItem.jsx`
 12. `reviva-frontend/src/conjuntos/Gustavo-publicacao-gestao/gerenciarItens.jsx`
+
+
+
+
+
