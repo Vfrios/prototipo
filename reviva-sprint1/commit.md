@@ -123,6 +123,7 @@ A tarefa consiste em **copiar os arquivos e blocos de funções já existentes d
 
 ## Gustavo
 
+
 1. `reviva-api/src/main/api/conjuntos/Gustavo-publicacao-gestao/comum/Item.java`
 2. `reviva-api/src/main/api/conjuntos/Gustavo-publicacao-gestao/comum/ItemRepository.java`
 3. `reviva-api/src/main/api/conjuntos/Gustavo-publicacao-gestao/comum/ItemResponse.java`
@@ -135,8 +136,3 @@ A tarefa consiste em **copiar os arquivos e blocos de funções já existentes d
 10. `reviva-frontend/src/shared/shared.jsx` — `const STATUS_ITEM`, `function statusDoItem(item)` e `function StatusBadge({ item, status, label })`
 11. `reviva-frontend/src/conjuntos/Gustavo-publicacao-gestao/cadastroItem.jsx`
 12. `reviva-frontend/src/conjuntos/Gustavo-publicacao-gestao/gerenciarItens.jsx`
-
-
-
-
-
